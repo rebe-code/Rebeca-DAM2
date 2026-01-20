@@ -1,0 +1,24 @@
+Lo que si va a tener la aplicación
+✔ Login / usuario
+✔ Medicación (CRUD)
+✔ Recordatorios de medicación
+✔ Botón de ayuda (alerta simple)
+✔ Diario de memoria
+✔ Rol cuidador (solo lectura)
+
+Dejar como mejora futura:
+Seguimiento de ubicación en tiempo real
+Alertas por desplazamiento inusual
+Voz / accesibilidad avanzada
+
+Añadir a los casos de uso:
+Flujo básico: Login -> menú -> funcionalidades
+
+Definición de tablas y entidades:
+Usuario/Medicamento/TomaMedicacion/Diario/Alerta
+
+Ejemplo mental:
+Un usuario tiene muchos medicamentos
+Un medicamento tiene muchas tomas
+Un usuario tiene muchas entradas de diario
+

@@ -1,0 +1,6 @@
+user;from;to;datetime;attachments;message
+tutor_empresa;Empresa ABC;Juan Pérez;2026-01-05 09:15:00;foto_incidencia.jpg;El alumno llega tarde, sin justificación previa
+profesor;IES Monte Naranco;Tutor Empresa ABC;2026-01-05 10:30:00;;Se ha registrado la incidencia, queda pendiente de revisión
+tutor_empresa;Empresa ABC;Juan Pérez;2026-01-06 08:55:00;justificante.pdf;Entrega justificante médico, firmado por el centro de salud
+profesor;IES Monte Naranco;Juan Pérez;2026-01-06 12:10:00;;Revisado el justificante, incidencia cerrada
+tutor_empresa;Empresa ABC;Profesor ADT;2026-01-07 14:40:00;foto_trabajo.jpg,video_proceso.mp4;Buen rendimiento en la tarea, se adjuntan evidencias
