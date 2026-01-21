@@ -3,7 +3,7 @@ package com.pspr.controller;
 
 import com.pspr.model.Empresa;
 import com.pspr.security.dto.ErrorResponse;
-import com.pspr.security.dto.exceptions.RecursoNoEncontradoException;
+import com.pspr.security.exceptions.RecursoNoEncontradoException;
 import com.pspr.service.EmpresaService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.pspr.security.dto.exceptions;
+package com.pspr.security.exceptions;
 
 public class RecursoNoEncontradoException extends RuntimeException {
     // Mi propia Excepcion //

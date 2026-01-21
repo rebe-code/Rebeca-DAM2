@@ -28,9 +28,9 @@ public class User implements UserDetails {
     )
     private Set<Role> roles;
 
+
     // metodos UserDetails (nos obliga a implementarlos)
     // Damos una implementacion basica
-
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
     // Recupera los nombres de los roles 'ROLE_ADMIN', 'ROLE_USER'
@@ -54,6 +54,14 @@ public class User implements UserDetails {
     public boolean isCredentialsNonExpired() { return true; }
     @Override
     public boolean isEnabled() { return true; }
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
 
     public Integer getId() {
         return id;

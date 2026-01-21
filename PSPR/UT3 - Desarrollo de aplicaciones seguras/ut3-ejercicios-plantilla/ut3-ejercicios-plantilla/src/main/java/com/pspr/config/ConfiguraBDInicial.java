@@ -12,6 +12,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Configuration
 public class ConfiguraBDInicial {
     private static final Logger log = LoggerFactory.getLogger(ConfiguraBDInicial.class);
@@ -19,7 +22,8 @@ public class ConfiguraBDInicial {
     private UserRepository userRepository;
     @Autowired
     private RoleRepository roleRepository;
-    private final PasswordEncoder passwordEncoder;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     public ConfiguraBDInicial(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
@@ -53,15 +57,25 @@ public class ConfiguraBDInicial {
                 // 3. Crear usuario admin con los dos roles
                 log.info("Creando usuario 'admin' con roles ADMIN y USER...");
 
-                //TODO: crear y guardar usuario username "admin" con 2 roles
+                // crear y guardar usuario username "admin" con 2 roles
                 User admin = new User();
                 admin.setUsername("admin");
                 admin.setPassword(passwordEncoder.encode("12345"));
+
+                // roles del admin
+                Set<Role> rolesAldmin = new HashSet<>();
+                rolesAldmin.add(adminRole);
+                rolesAldmin.add(userRole);
+                admin.setRoles(rolesAldmin);
+
                 userRepository.save(admin);
+
 
                 // 4. Crear un usuario normal con ROLE_USER
                 log.info("Creando usuario 'user' con rol USER...");
                 // TODO: crear y guardar usuario username "user" con un rol
+
+
                 log.info("=== Inicialización de BD completada correctamente ===");
             }
         };

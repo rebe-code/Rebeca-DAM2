@@ -3,7 +3,7 @@ package com.pspr.service;
 
 import com.pspr.model.Empresa;
 import com.pspr.repository.EmpresaRepository;
-import com.pspr.security.dto.exceptions.RecursoNoEncontradoException;
+import com.pspr.security.exceptions.RecursoNoEncontradoException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
