@@ -5,6 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
+import java.util.List;
 
 @Document(collection = "mensajes")
 public class Mensaje {
@@ -14,6 +15,7 @@ public class Mensaje {
     private String text;
     private String room;
     private Instant datetime;
+    private List<Attachment> attachments;
 
     public Mensaje(String id, String user, String text, String room, Instant datetime) {
         this.id = id;
@@ -25,6 +27,14 @@ public class Mensaje {
 
     public Mensaje() {
 
+    }
+
+    public List<Attachment> getAttachments() {
+        return attachments;
+    }
+
+    public void setAttachments(List<Attachment> attachments) {
+        this.attachments = attachments;
     }
 
     public Instant getDatetime() {
