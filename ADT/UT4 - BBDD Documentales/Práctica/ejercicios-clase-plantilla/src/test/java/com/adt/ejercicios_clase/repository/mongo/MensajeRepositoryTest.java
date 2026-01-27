@@ -2,13 +2,16 @@ package com.adt.ejercicios_clase.repository.mongo;
 
 import com.adt.ejercicios_clase.model.Attachment;
 import com.adt.ejercicios_clase.model.Mensaje;
+import org.bson.Document;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
@@ -126,7 +129,40 @@ class MensajeRepositoryTest {
 
     @Test
     void findMensajesPorMimeType(){
-        List<Mensaje> mensajes = mensajeRepository.findMensajesPorMimeTipe("");
+        List<Mensaje> mensajes = mensajeRepository.findMensajesPorMimeTipe("image.png");
+        assertNotNull(mensajes);
+    }
+
+    @Test
+    void buscarPorUsuariosOr(){
+        List<Mensaje> mensajes = mensajeRepository.buscarPorUsuariosOr("Junit","JunitUser", "JunitUser");
+        assertNotNull(mensajes);
+    }
+
+    @Test
+    void buscarDespuesDeFecha(){
+        List<Mensaje> mensajes = mensajeRepository.buscarDespuesDeFecha(Date.from(Instant.parse("2026-01-01T00:00:00Z")));
+        assertNotNull(mensajes);
+    }
+
+    @Test
+    void buscarPorUsuarioOrdenadoPorFechaAscendente(){
+        List<Mensaje> mensajes = mensajeRepository.buscarPorUsuarioOrdenadoPorFechaAscendente("JunitUser");
+        assertNotNull(mensajes);
+    }
+    @Test
+    void buscarMensajeMasReciente(){
+        Optional<Mensaje> mensajes = mensajeRepository.buscarMensajeMasReciente("JunitUser");
+        assertNotNull(mensajes);
+    }
+    @Test
+    void buscarMensajeMasRecienteLimit(){
+        List<Mensaje> mensajes = mensajeRepository.buscarMensajeMasRecienteLimit("JunitUser",2);
+        assertNotNull(mensajes);
+    }
+    @Test
+    void adjuntosDeUsuario(){
+        List<Document> mensajes = mensajeRepository.adjuntosDeUsuario("JunitUser");
         assertNotNull(mensajes);
     }
 }

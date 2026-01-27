@@ -22,3 +22,11 @@ Un usuario tiene muchos medicamentos
 Un medicamento tiene muchas tomas
 Un usuario tiene muchas entradas de diario
 
+Mejora futura de ubicación:
+CU4. Seguimiento de ubicación   
+Actor principal: Familiar/Cuidador/Asistente  Actor secundario: Persona Mayor  Escenario principal:   
+1.El cuidador accede a la sección de ubicación.   
+2.Consulta la posición actual de la persona mayor (previa autorización).   
+3.Si la aplicación detecta un desplazamiento inusual, envía una alerta.   
+4.El cuidador puede contactar con la persona mayor desde la app.  
+
