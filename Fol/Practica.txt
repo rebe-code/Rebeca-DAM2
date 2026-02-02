@@ -1,3 +1,59 @@
+Repaso de análisis de costes y umbral de rentabilidad
+1º Clasisfica los siguientes gastos mensuales de una tienda de ordenadores:
+Alquiler 500€
+Compra de 30 ordenadores a 250€ la unidad.
+Publicidad: 250€.
+Nóminas:1.000€
+ Seguridad Social: 300€
+Cuota de autónomos: 250€
+Luz: 200€
+Internet:50€
+Gestoría: 100 €
+Intereses de un préstamo: 200€
+Móvil: 50 €
+Material de oficina: 100€
+Precio de venta de cada ordenador: 400€
+
+Concepto				Tipo de Gasto			Importe (€)
+Alquiler				Fijo				500
+Compra de ordenadores			Variable			7.500 (30 x 250)
+Publicidad				Fijo				250
+Nóminas					Fijo				1.000
+Seguridad Social			Fijo				300
+Cuota de autónomos			Fijo				250
+Luz					Fijo*				200
+Internet				Fijo				50
+Gestoría				Fijo				100
+Intereses préstamo			Fijo				200
+Móvil					Fijo				50
+Material de oficina			Fijo				100
+
+Nota: He clasificado la Luz como fijo porque en una tienda suele ser un gasto estructural (iluminación, escaparate), aunque en una fábrica sería variable. La compra de ordenadores es claramente variable: si no vendes, no repones stock.
+Total Costes Fijos (CF): 3.000 €
+Coste Variable Unitario (CV): 250 €
+Precio de Venta Unitario (P): 400 €
+
+
+2º Una empresa de instalaciones domóticas para bares y cafeterías tiene unos costes fijos de 3.000€ al mes. La compra de materiales para cada instalación es de 1.500€. Los servicios de subcontratación con otra empresa son de 2.000€ por instalación.
+Calcula el umbral de rentabilidad(Punto Muerto) si el precio de venta cada instalación es de 4.500€
+
+El umbral de rentabilidad es el volumen de ventas necesario para que el beneficio sea cero (ni ganas ni pierdes). A partir de ahí, empiezas a ganar dinero.
+Datos del problema:
+Costes Fijos (CF): 3.000 €Precio de Venta (P): 4.500 €
+Costes Variables Unitarios (CV): 1.500 € (materiales) + 2.000 € (subcontrata) = 3.500 €
+
+Fórmula del punto muerto(Q):
+		Q = CF / P - CV
+Cálculo: 	Q = 3.000 / 4.500 - 3.500 = 3 instalaciones 
+
+Conclusión:
+La empresa necesita realizar 3 instalaciones al mes para cubrir todos sus costes.
+Con la 1ª y 2ª instalación, aún está perdiendo dinero.
+Con la 3ª, el beneficio es 0 €.
+A partir de la 4ª instalación, la empresa empieza a obtener beneficios reales.
+
+
+Actividades de balance de situación
 1º Clasifica las siguientes cuentas en activo, pasivo y patrimonio neto y presenta la información ordenada en masas en un balance:
 Deudas de los clientes: 1.000€
 IVA repercutido de ventas: 5.000€
@@ -26,7 +82,7 @@ Clientes 		1.000			PASIVO CORRIENTE			7.000
 (Realizable)
 
 IVA Soportado		2.500			Proveedores				2.000
-Bancos 			3.000,			IVA Repercutido				5.000
+Bancos 			3.000			IVA Repercutido				5.000
 (Disponible)
 
 TOTAL ACTIVO		17.000			TOTAL PASIVO Y PN			17.000
@@ -66,7 +122,7 @@ Maquinaria			25.000				Capital					10.000
 Ordenadores			1.000				Reservas				4.000
 										Resultado del ejercicio,10.000
 
-ACTIVO CORRIENTE		23.000				PASIVO NO CORRIENTE			5.000
+ACTIVO CORRIENTE		22.000				PASIVO NO CORRIENTE			5.000
 Mercaderías			11.000				Préstamo a 2 años			5.000
 Clientes			2.000				PASIVO CORRIENTE			20.000
 Crédito a 9 meses*		3.000				Proveedores				6.000
@@ -74,19 +130,30 @@ IVA Soportado			2.000				IVA Repercutido				7.000
 Bancos				3.000				Préstamos/Otras deudas CP**		7.000
 Caja				1.000				(Ajuste para cuadre)
 
-TOTAL ACTIVO			49.000				TOTAL PASIVO Y PN			49.000
-
-*Nota: Se asume que el crédito de 9 meses es un derecho de cobro (Activo).
-
-**Nota: En este ejercicio, para que el balance cuadre (Activo 49k vs Pasivo+PN 42k), faltan 7.000€ en el pasivo corriente o el capital debería ser mayor. He añadido la diferencia como deuda a CP para completar el ejercicio."
+TOTAL ACTIVO			48.000	//sale 45.000		TOTAL PASIVO Y PN			49.000
 
 Análisis Financiero
 
-1. Fondo de Maniobra (FM): $23.000 - 13.000 (reales) = 10.000€
-Significado: Es positivo. La situación de solvencia a corto plazo es sólida.
+1. Fondo de Maniobra (FM): $19.000 - 16.000 (reales) = 3.000€
 
-2. Ratio de Liquidez: {23.000}/{13.000} = 1,77
-Significado: Muy buena salud de liquidez. La empresa puede afrontar sus pagos inmediatos sin problemas.
+2. Ratio de Liquidez: {19.000}/{16.000} = 1,18
 
-3. Ratio de Endeudamiento: {18.000}/{49.000} = 0,36
-Significado: La empresa tiene un endeudamiento bajo. La mayor parte de su financiación es propia (Patrimonio Neto), lo que le da mucha autonomía financiera.
+3. Ratio de Endeudamiento: {18.000}/{45.000} = 0,36
+
+
+
+Actividades Cuenta de resultados
+Calcula el beneficio de la empresa de una empresa que presenta los siguientes gastos e ingresos, sabiendo que el impuesto que se aplica es del 20%:
+Alquiler 4.800€
+Material de oficina: 500€
+Autónomos: 3.000€
+Nóminas: 14.400€
+Seguridad Social: 4.200€
+Teléfono:  1.000€
+Internet:600€
+Intereses préstamo:1.200€
+Publicidad: 2.000€
+Gastos diversos: 500€
+Consumo mercaderías: 4.000€
+Gestoría: 1.200€
+Ventas mercaderías: 150.000€

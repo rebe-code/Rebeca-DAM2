@@ -1,0 +1,41 @@
+Capital:18.000
+Crédito a seis meses: 5.000
+Programas informáticos: 100
+Caja: 2.000
+IVA soportado: 100
+Deudas de clientes: 8.000
+Proveedores: 10.000
+Reservas: 20.000
+Mobiliario: 5.000
+Herramientas: 2.000
+Mercaderías: 15.000
+Vehículos: 10.000
+Préstamo a 4 años: 15.000
+Bancos: 35.000
+Ordenadores: 800
+Instalaciones: 6.000
+
+		ACTIVO 						PASIVO
+
+NO CORRIENTE = 23.900					PATRIMONIO NETO = 38.000
+Programas informáticos: 100				Capital: 18.000
+Mobiliario: 5.000					Reservas: 20.000
+Herramientas: 2.000
+Ordenadores: 800
+Vehículos: 10.000
+Instalaciones: 6.000
+
+EXISTENCIAS						PASIVO NO CORRIENTE
+Mercaderías: 15.000					Préstamo a 4 años: 15.000
+
+
+REALIZABLE = 8.100					PASIVO CORRIENTE = 31.000
+IVA soportado: 100					IVA repercutido: 16.000
+Deudas de clientes: 8.000				Proveedores: 10.000
+							Crédito a seis meses: 5.000
+
+DISPONIBLE
+Bancos: 35.000
+Caja: 2.000
+
+TOTAL ACTIVO: 84.000					TOTAL PASIVO: 84.000
