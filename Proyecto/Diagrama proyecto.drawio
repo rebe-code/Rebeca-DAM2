@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Página-1" id="RpU_I-EtbBikQ3YbtpTW">
+    <mxGraphModel dx="1371" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="1070" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="320" as="sourcePoint" />
+            <mxPoint x="790" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="380" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="CuidArte" vertex="1">
+          <mxGeometry height="30" width="106" x="531" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar medicación" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Alarma ayuda" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar diario de memoria" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Notoficaciones a familia / asistentes" vertex="1">
+          <mxGeometry height="50" width="240" x="464" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar medicación" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11pt; line-height: 105%; font-family: Calibri, sans-serif;&quot;&gt;Gestionar diario de memoria&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="360" as="sourcePoint" />
+            <mxPoint x="800" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="520" as="sourcePoint" />
+            <mxPoint x="1040" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Persona Mayor&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-vPB0VWI-0CkXEYPXzSj-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="Familiar / Asistente" vertex="1">
+          <mxGeometry height="30" width="151.25" x="1020" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
