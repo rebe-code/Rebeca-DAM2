@@ -64,6 +64,7 @@ public class ConfiguraBDInicial {
 
                 // roles del admin
                 Set<Role> rolesAldmin = new HashSet<>();
+
                 rolesAldmin.add(adminRole);
                 rolesAldmin.add(userRole);
                 admin.setRoles(rolesAldmin);

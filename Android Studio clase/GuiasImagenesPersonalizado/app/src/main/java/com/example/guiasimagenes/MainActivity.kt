@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             imageView.setImageResource(animales[indice])
             estado[indice] = true
         } else {
-            
+
             imageView.setImageResource(R.drawable.fondomemorion)
             estado[indice] = false
         }
