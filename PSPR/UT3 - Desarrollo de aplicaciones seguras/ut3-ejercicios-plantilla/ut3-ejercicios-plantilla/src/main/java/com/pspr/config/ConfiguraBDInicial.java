@@ -43,12 +43,14 @@ public class ConfiguraBDInicial {
                 userRepository.deleteAll();
                 roleRepository.deleteAll();
                 log.info("Tablas limpiadas correctamente.");
+
                 // 2. Crear roles
                 log.info("Creando roles iniciales...");
                 Role adminRole = new Role();
                 adminRole.setName("ROLE_ADMIN");
                 roleRepository.save(adminRole);
                 log.info("Rol creado: {}", adminRole);
+
                 Role userRole = new Role();
                 userRole.setName("ROLE_USER");
                 roleRepository.save(userRole);
@@ -74,8 +76,12 @@ public class ConfiguraBDInicial {
 
                 // 4. Crear un usuario normal con ROLE_USER
                 log.info("Creando usuario 'user' con rol USER...");
-                // TODO: crear y guardar usuario username "user" con un rol
 
+                User user = new User();
+                user.setUsername("user");
+                user.setPassword(passwordEncoder.encode("12345"));
+                user.setRoles(Set.of(userRole)); userRepository.save(user);
+                log.info("Usuario user creado correctamente.");
 
                 log.info("=== Inicialización de BD completada correctamente ===");
             }

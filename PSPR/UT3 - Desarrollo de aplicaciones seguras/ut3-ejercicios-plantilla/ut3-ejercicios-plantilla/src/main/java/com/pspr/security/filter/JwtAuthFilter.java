@@ -87,13 +87,20 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         // 8) Continuar la cadena de filtros
         filterChain.doFilter(request, response);
     }
-    private static void generarErrorResponse(HttpServletResponse response, String mensajeError) throws IOException{
+    /*private static void generarErrorResponse(HttpServletResponse response, String mensajeError) throws IOException{
         response.setStatus(HttpServletResponse.SC_UNAUTHORIZED); // 401
         response.setContentType("application/json;charset=UTF-8");
         response.getWriter().write("""
-{
-"error": """ + mensajeError +"""
-}
-""");
-}
+            {
+               "error": """ + mensajeError +"""
+            }
+                """);
+            }*/
+    private void generarErrorResponse(HttpServletResponse response, String mensaje) throws IOException {
+        response.setStatus(401);
+        response.setContentType("application/json");
+        response.getWriter().write("""
+        {"status":401,"error":"Unauthorized","message":"%s","path":""}
+        """.formatted(mensaje));
+    }
 }
